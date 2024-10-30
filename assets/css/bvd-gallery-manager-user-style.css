@@ -1,0 +1,152 @@
+/* 
+    BVD Gallery Manager User CSS
+*/
+
+div#bvd-gallery-frontend-admin-form-append-container img {
+    margin-right: 20px;
+}
+button#bvd-gallery-frontend-admin-btn {
+    margin-top: 30px;
+}
+button#bvd-gallery-frontend-admin-submit-btn {
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.bvd-frontend-gallery-upload-success {
+    margin-top: 30px;
+}
+
+.wp-core-ui .attachment .thumbnail {
+    padding: 0;
+    margin-bottom: 0;
+    border: none;
+}
+
+.wp-core-ui .attachment .thumbnail img {
+    max-width: initial;
+}
+
+.wp-core-ui .attachment .close {
+    opacity: 1;
+}
+
+.wp-core-ui .collection-settings.gallery-settings {
+    display: none;
+}
+
+select#bvd-gallery-select-gallery {
+    width: 100%;
+}
+
+#bvd-gallery-frontend-admin-advanced-hidden {
+    display: none;
+}
+
+.bvd-gallery-frontend-admin-container {
+    position: relative;
+    padding-bottom: 120px;
+}
+
+div#bvd-frontend-gallery-advanced-btn {
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    background-color: #E1E1E1;
+    padding: 5px 10px;
+    color: black;
+}
+
+div#bvd-gallery-frontend-admin-basic-upload-container {
+    margin-top: 30px;
+}
+
+form#bvd-frontend-gallery-basic-upload-form {
+    border-style: dashed;
+}
+
+.dropzone .dz-message {
+    margin: 3em 0;
+}
+
+.dz-message.dz-default .dz-message-phone {
+    display: none;
+}
+
+#bvd-frontend-gallery-basic-upload-form-phone-camera {
+    display: none;
+}
+
+.dz-message-desktop-icon {
+    font-size: 6vw;
+}
+
+.bvd-frontend-admin-basic-view-gallery-link-wrapper {
+    margin-top: 50px;
+}
+
+.bvd-frontend-admin-basic-view-gallery-link-wrapper a {
+    background-color: #ccc;
+    padding: 10px 20px;
+    color: white;
+}
+
+.dropzone .dz-preview .dz-image {
+    border-radius: 0;
+}
+
+/*.dropzone .dz-preview.dz-success .dz-success-mark {
+    -webkit-animation: none;
+    -moz-animation: none;
+    -ms-animation: none;
+    -o-animation: none;
+    animation: none;
+}*/
+
+@media (max-width: 991px) {
+    .dz-message.dz-default .dz-message-phone {
+        display: block;
+    }
+
+    .dz-message.dz-default .dz-message-desktop {
+        display: none;
+    }
+
+    #bvd-frontend-gallery-basic-upload-form-phone-camera {
+        display: block;
+    }
+
+    .dropzone {
+        min-height: initial;
+        border: none;
+        border-style: none !important;
+        padding: 0;
+        background: transparent;
+        margin-bottom: 20px;
+    }
+
+    .dropzone .dz-message {
+        margin: 0;
+        background-color: #ccc;
+        padding: 10px 20px;
+    }
+
+    .dropzone .dz-message i {
+        margin-right: 10px;
+    }
+
+    .dropzone.dz-started .dz-message {
+        display: block;
+    }
+}
+
+@media (max-width: 767px) {
+    div#bvd-gallery-frontend-admin-form-append-container img {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .attachments-browser .media-toolbar-primary {
+        max-width: 40% !important;
+    }
+}

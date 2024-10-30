@@ -1,0 +1,128 @@
+/* 
+    BVD Gallery Manager Admin CSS
+*/
+
+figure.gallery-item {
+    float: left;
+}
+
+.post-type-bvd-gallery .collection-settings.gallery-settings {
+    display: none;
+}
+
+#slides-hidden-wrapper, #pagination-hidden-wrapper, #image-size-hidden-wrapper, #lightbox-padding-hidden-wrapper {
+    display: none;
+}
+
+.bvd-gallery-metabox-form-wrapper {
+    margin-bottom: 20px;
+}
+
+.bvd-gallery-metabox-form-wrapper label {
+    display: inline-block;
+    width: 19%;
+}
+
+.bvd-gallery-metabox-form-wrapper select, .bvd-gallery-metabox-form-wrapper input {
+    width: 30%;
+}
+
+.bvd-gallery-option-hint {
+    font-style: italic;
+    margin-left: 19%;
+    margin-top: 10px;
+}
+
+span.bvd-gallery-input-post-addon {
+    height: 27px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.designed-by-wrapper img {
+    max-width: 100%;
+}
+
+.bvd-gallery-shortcode-wrapper h3 {
+    padding-left: 0 !important;
+}
+
+.shortcode-attributes {
+    margin-top: 25px;
+}
+
+span.bvd-gallery-shortcode-example {
+    margin-left: 5%;
+    margin-top: 10px;
+    display: inline-block;
+    font-style: italic;
+}
+
+.designed-by-wrapper-admin-page {
+    float: right;
+    width: 25%;
+    background-color: white;
+    text-align: center;
+}
+
+.designed-by-wrapper-admin-page img {
+    max-width: 100%;
+}
+
+.bvd-gallery-admin-page-wrapper {
+    width: 70%;
+}
+
+.pro-key-submit-form-wrapper {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding-top: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.form-section {
+    margin-bottom: 20px;
+}
+
+.form-section-left {
+    float: left;
+    width: 10%;
+}
+
+span.shortcode-attributes-example {
+    display: block;
+    margin-left: 5%;
+    font-style: italic;
+}
+
+.wp-caption-text.gallery-caption {
+    display: none;
+}
+
+.frontend-editing-option-hint {
+    margin-left: 4%;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+.bvd-gallery-frontend-edit-option-wrapper {
+    margin-top: 40px;
+}
+
+.bvd-gallery-pro-ad-wrapper {
+    text-align: center;
+}
+
+.bvd-gallery-pro-ad-wrapper img {
+    max-height: 200px;
+}
+
+.bvd-gallery-pro-ad-wrapper p {
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
